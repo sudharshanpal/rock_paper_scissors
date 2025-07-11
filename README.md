@@ -24,11 +24,3 @@ A simple web-based **Rock Paper Scissors** game where you play against the compu
 ### 💾 Local Storage
 - The score is stored using `localStorage.setItem()`.
 - On page load, saved scores are retrieved with `localStorage.getItem()` to restore the game state.
-
-### 🔄 Resetting Score
-To reset the scores:
-- You can manually clear local storage using browser dev tools.
-- Or, add a **Reset Score** button in your UI that runs:
-  ```js
-  localStorage.clear();
-  location.reload();
